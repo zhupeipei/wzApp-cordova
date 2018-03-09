@@ -1,0 +1,20 @@
+# OS X
+.DS_Store
+node_modules/
+platforms/android/.idea/
+platforms/android/.gradle/
+# Gradle builds
+platforms/android/build/
+platforms/android/gradle/
+platforms/android/gradlew.bat
+platforms/android/local.properties
+platforms/android/build.xml
+platforms/android/app/build/
+platforms/android/app/app.iml
+platforms/android/CordovaLib/build/
+wzFrontEnd/node_modules/
+.git/
+.npmignore
+package-lock.json
+hooks/
+www/
