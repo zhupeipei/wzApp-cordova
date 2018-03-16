@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
   </div>
 </template>
 
 <script>
-export default {
-}
+  export default {}
 </script>
 
 <style lang="less">
-@import '~vux/src/styles/reset.less';
-body {
-  background-color: #fbf9fe;
-}
+  @import '~vux/src/styles/reset.less';
+
+  body {
+    background-color: #fbf9fe;
+  }
 </style>
